@@ -1,0 +1,13 @@
+package sec03.exam01;
+
+/*
+ 작성자 : 조예빈
+ 작성일 : 2022.08.07
+ */
+
+public class p38 {
+	public static void main(String[] args) {
+		System.out.println("Hello, Java");
+	}
+
+}

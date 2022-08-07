@@ -1,0 +1,22 @@
+2022-08-06 17:11:20,349 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 14:21:19,616 [ModalContext] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/joyebin/coding/java/eclipse self study/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.createObjectOutputStream(ProjectRegistryReader.java:137) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:977) ~[na:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator$1.saving(MavenPluginActivator.java:142) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554) ~[na:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+2022-08-07 14:21:38,081 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 14:51:54,133 [Worker-64: Cloning from https://github.com/Jyebin/java-self-study.git] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[/Users/joyebin/coding/java/java-self-study/.git]
+2022-08-07 14:52:24,159 [Framework stop - Equinox Container: 78e880da-0dbc-4aa0-aac7-6b3c938d6d90] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[/Users/joyebin/git/java-self-study/coding/java/java self study/java-self-study/.git]
