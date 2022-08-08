@@ -20,3 +20,11 @@ java.io.FileNotFoundException: /Users/joyebin/coding/java/eclipse self study/.me
 2022-08-07 14:21:38,081 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-08-07 14:51:54,133 [Worker-64: Cloning from https://github.com/Jyebin/java-self-study.git] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[/Users/joyebin/coding/java/java-self-study/.git]
 2022-08-07 14:52:24,159 [Framework stop - Equinox Container: 78e880da-0dbc-4aa0-aac7-6b3c938d6d90] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[/Users/joyebin/git/java-self-study/coding/java/java self study/java-self-study/.git]
+2022-08-07 14:55:33,175 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 15:59:04,770 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 16:12:08,945 [Worker-26: https://download.eclipse.org/releases/2022-06/202206151000/artifacts.xml.xz] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.eclipse.org:443
+2022-08-07 16:12:25,559 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 16:14:57,360 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 16:15:51,569 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-07 17:10:50,753 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-08 15:31:07,933 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

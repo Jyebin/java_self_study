@@ -536,3 +536,1132 @@ java.lang.Exception: The project description file (.project) for 'chap01' is mis
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-07 14:52:24.163
 !MESSAGE close() called when useCnt is already zero for Repository[/Users/joyebin/git/java-self-study/coding/java/java self study/java-self-study/.git]
+!SESSION 2022-08-07 14:55:20.604 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-07 14:55:27.726
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 14:55:27.726
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@678b3746,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45689582,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 14:55:27.726
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73db1a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12a7515b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-08-07 15:58:52.313 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-07 15:58:59.247
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 15:58:59.247
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f3fafca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@174aabb2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 15:58:59.247
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33b4c775,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@678b3746,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:10:02.458
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/mpc/releases/1.10.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:10:05.869
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/mpc/releases/1.10.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:10:45.809
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/nodeclipse/nodeclipse/1.0.2f/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-08-07 16:10:46.103
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server 'Bad Gateway' : http://dl.bintray.com/nodeclipse/nodeclipse/1.0.2f/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:249)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:518)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:518)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.addRepositories(AbstractProvisioningOperation.java:94)
+	at org.eclipse.epp.internal.mpc.ui.operations.ResolveFeatureNamesOperation.run(ResolveFeatureNamesOperation.java:49)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage$2.run(FeatureSelectionWizardPage.java:398)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:281)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-08-07 16:10:46.104
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/nodeclipse/nodeclipse/1.0.2f/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:281)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2022-08-07 16:10:46.104
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:10:46.523
+!MESSAGE Using unsafe http transport to retrieve http://eclipse.jeeeyul.net/update/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:10:49.492
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/nodeclipse/nodeclipse/1.0.2f/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-08-07 16:10:49.781
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server 'Bad Gateway' : http://dl.bintray.com/nodeclipse/nodeclipse/1.0.2f/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:249)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:518)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:518)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.operations.AbstractProvisioningOperation.addRepositories(AbstractProvisioningOperation.java:94)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.computeInstallableUnits(ProfileChangeOperationComputer.java:374)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.run(ProfileChangeOperationComputer.java:168)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:281)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-08-07 16:10:49.781
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/nodeclipse/nodeclipse/1.0.2f/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:281)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2022-08-07 16:10:49.781
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:11:20.079
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:11:29.126
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:11:32.016
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:11:33.524
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:11:37.685
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.366
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.370
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.377
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getDataFile(String)" because the return value of "org.eclipse.equinox.internal.p2.updatesite.Activator.getBundleContext()" is null
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(UpdateSiteMetadataRepositoryFactory.java:40)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(UpdateSiteArtifactRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.379
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.381
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.381
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getDataFile(String)" because the return value of "org.eclipse.equinox.internal.p2.updatesite.Activator.getBundleContext()" is null
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(UpdateSiteMetadataRepositoryFactory.java:40)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(UpdateSiteArtifactRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:12:09.382
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.382
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:12:09.393
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-07 16:12:09.393
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.395
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.396
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getDataFile(String)" because the return value of "org.eclipse.equinox.internal.p2.updatesite.Activator.getBundleContext()" is null
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(UpdateSiteMetadataRepositoryFactory.java:40)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(UpdateSiteArtifactRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.398
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.398
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.399
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getDataFile(String)" because the return value of "org.eclipse.equinox.internal.p2.updatesite.Activator.getBundleContext()" is null
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(UpdateSiteMetadataRepositoryFactory.java:40)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(UpdateSiteArtifactRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.400
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.simpleRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.401
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.artifact.repository.compositeRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getHttpClientFactory(Activator.java:242)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getBrowseHttpClient(Activator.java:267)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientBrowseFileTransferFactory$1.sendBrowseRequest(HttpClientBrowseFileTransferFactory.java:59)
+	at org.eclipse.ecf.provider.filetransfer.browse.MultiProtocolFileSystemBrowserAdapter.sendBrowseRequest(MultiProtocolFileSystemBrowserAdapter.java:97)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.sendBrowseRequest(FileInfoReader.java:184)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:404)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:353)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:283)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:231)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.getLocalFile(CompositeArtifactRepositoryFactory.java:71)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2022-08-07 16:12:09.401
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getDataFile(String)" because the return value of "org.eclipse.equinox.internal.p2.updatesite.Activator.getBundleContext()" is null
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(UpdateSiteMetadataRepositoryFactory.java:40)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(UpdateSiteArtifactRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-07 16:12:10.304
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-07 16:12:10.306
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-07 16:12:10.307
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.p2.operations.ProfileModificationJob
+!SESSION 2022-08-07 16:12:13.392 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-07 16:12:20.013
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 16:12:20.013
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cff38ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7adde776,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 16:12:20.013
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3feb93a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ae435a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-08-07 16:14:45.350 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-07 16:14:51.894
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 16:14:51.894
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50bc0bbd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6956081d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 16:14:51.894
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d94c50e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@135f160e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-08-07 16:15:39.355 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-07 16:15:46.292
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 16:15:46.292
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cd758be,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@562ec518,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 16:15:46.292
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c8d685e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b1ad751,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-08-07 17:10:38.890 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-07 17:10:45.528
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 17:10:45.528
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ded31cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47b71556,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-07 17:10:45.528
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fb2b972,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fa3df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-08-08 15:30:56.032 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/joyebin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-08 15:31:02.705
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-08 15:31:02.705
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c28654e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ded31cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-08 15:31:02.705
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47b71556,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fb2b972,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
