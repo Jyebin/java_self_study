@@ -1,0 +1,21 @@
+package hee;
+
+import java.util.Scanner;
+
+public class project01_01 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in)
+		
+		System.out.print("습도를 입력하세요"	 : ");
+		double Humid = scanner.nextDouble(); //습도 입력받
+		
+		System.out.print("온도를 입력하세요 : ");
+		double Temp = scanner.nextDouble(); //온도 입력받기
+		
+		System.out.println(".1lf",Humid);
+		System.out.print(".1lf",Temp);
+
+	}
+
+}
