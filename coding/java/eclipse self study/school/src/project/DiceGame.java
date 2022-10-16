@@ -5,7 +5,6 @@ package project;
 import java.util.Scanner;
 public class DiceGame{
 	public static void main(String[] args) {
-		String[] MemberName;
 		      
 		Scanner sc = new Scanner(System.in);
 		
