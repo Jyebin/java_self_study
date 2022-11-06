@@ -1,13 +1,9 @@
 package project;
-
-
-
 import java.util.Scanner;
 public class DiceGame{
 	public static void main(String[] args) {
 		      
 		Scanner sc = new Scanner(System.in);
-		
 		Game game = new Game();
 		int GameMember = game.game_setting(sc);
 		int score = 0;
@@ -19,7 +15,7 @@ public class DiceGame{
 		while(true) {
 			String person = null;
 			int winnerIdx = 0;
-   int winner = Integer.MIN_VALUE;
+			int winner = Integer.MIN_VALUE;
 			game.start_game();
 			for(int i=0; i<GameMember; i++) {
 				System.out.println(player[i].get_name() + " 차례입니다. 주사위를 던지려면 1을 입력하세요.");
@@ -31,7 +27,7 @@ public class DiceGame{
 				}
 				if(score > winner) {
 					winner = score;
-     winnerIdx = i;
+					winnerIdx = i;
 				}
 			}
    player[winnerIdx].win();
@@ -46,26 +42,16 @@ public class DiceGame{
 					System.out.println(player[i].get_name() + player[i].win_stack + "승");
 				}System.out.print("입니다.");
 				
-				
-				
 				break;
-		}
+			}
+		}sc.close();
 	}
-		
-sc.close();
-		   }
 		
 
 	static class Dice {
-		private final int MAX = 6;
 		private int faceValue;
-		public Dice() {
-			faceValue = 1;
-		}
-		   
 		public int roll() {
-			faceValue = (int) (Math.random() * MAX) +1;
-		      
+			faceValue = (int) (Math.random() * 6) +1;
 			return faceValue;
 		}
 	}
@@ -79,9 +65,7 @@ sc.close();
 			System.out.println("*** 지금부터 게임을 시작합니다. ***");
 			game_count++;
 			System.out.println("game #" + this.game_count);
-		}
-
-			
+			}	
 		}
 	}
 	class Player{
@@ -104,7 +88,7 @@ sc.close();
 		public int b;
 		public int sum = 0;
 		public void roll_dice() {
-   this.sum = 0;
+			this.sum = 0;
 			this.a = (int)(Math.random() * 6) + 1;
 			this.b = (int)(Math.random() * 6) + 1;
 			this.sum = a+b;
