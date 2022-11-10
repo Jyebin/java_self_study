@@ -2,13 +2,12 @@ package project;
 import java.util.Scanner;
 class Store{
 	Scanner sc = new Scanner(System.in);
-	
 	Store[] goods;
 	private String name;
 	private int price;
 	private int stock;
 	private int sold;
-	private int count;
+	private int cnt;
 	
 	Store(){}
 	
@@ -24,7 +23,7 @@ class Store{
 	}
 	void setCount() {
 		for(int i=0; i<goods.length; i++) {
-			goods[i].count = 0;
+			goods[i].cnt = 0;
 		}
 	}
 	void setGoods() {
@@ -85,52 +84,50 @@ void sellGoods() {
 		}
 		System.out.println((goods.length + 1) + ") 계산");
 		System.out.print(">>> ");
-		int sel = sc.nextInt();
+		int sell = sc.nextInt();
 		
 		for(int i=0; i<goods.length; i++) {
-			if(sel == (i+1)) {
+			if(sell == (i+1)) {
 				goods[i].sold++;
 				goods[i].stock--;
-			}else if(sel == (goods.length + 1)) {
+			}else if(sell == (goods.length + 1)) {
 				System.out.println();
 				Pay();
 				break;
 			}
 		}
-		if(sel == (goods.length + 1)) {
+		if(sell == (goods.length + 1)) {
 			break;
 		}
 	}
-
 }
 
 void purchaseGoods() {
 	setCount();
 	while(true) {
 		for(int i=0; i<goods.length; i++) {
-			System.out.print((i+1)+") "+goods[i].name+"     ");
+			System.out.print((i+1)+") "+goods[i].name+"     ");}
 			System.out.println((goods.length + 1) + ") 구매 종료");
 			System.out.print(">>> ");
-			int sel = sc.nextInt();
-			
+			int pur = sc.nextInt();
 			for(int j=0; j<goods.length; j++) {
-				if(sel == (j+1)) {
+				if(pur == (j+1)) {
 					System.out.print("구매 수량을 입력하시오. >>>");
-					goods[j].count = sc.nextInt();
-					goods[j].stock = goods[j].stock + goods[i].count;
+					goods[j].cnt = sc.nextInt();
+					goods[j].stock = goods[j].stock + goods[j].cnt;
 					System.out.println(" ## " + goods[j].name + "의 재고량이 " + goods[j].stock + "으로 증가함.");
 					System.out.println();
-				}else if(sel == (goods.length + 1)) {
+				}else if(pur == (goods.length + 1)) {
 					System.out.println();
 					break;
 				}
 			}
-			if(sel == (goods.length + 1)) {
+			if(pur == (goods.length + 1)) {
 				break;
 			}
 		}
 	}
-}
+
 void showGoods() {
 	System.out.println("### 상품명 재고량 ###");
 	System.out.println("==========================");
@@ -146,19 +143,19 @@ void runStore() {
 	while(true) {
 		System.out.println("1) 판매   2)구매   3)조회   4)종료");
 		System.out.print(">>> ");
-		int opt = sc.nextInt();
+		int cho = sc.nextInt();
 		System.out.println();
-		if(opt == 1) {
+		if(cho == 1) {
 			sellGoods();
-		}else if(opt == 2) {
+		}else if(cho == 2) {
 			purchaseGoods();
-		}else if(opt == 3) {
+		}else if(cho == 3) {
 			showGoods();
-		}else if(opt == 4) {
+		}else if(cho == 4) {
 			System.out.println("종료합니다.");
 			break;
 		}else {
-			System.out.println("잘못된 입력입니다.");
+			System.out.println("다시 입력하세요.");
 			System.out.println();
 		}
 	}
@@ -169,8 +166,6 @@ public class GoodsArray {
 	public static void main(String[] args) {
 		Store store = new Store();
 		store.runStore();
-		
-
 	}
 }
 
