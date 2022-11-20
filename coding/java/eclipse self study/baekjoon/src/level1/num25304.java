@@ -1,0 +1,10 @@
+package level1;
+
+public class num25304 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
